@@ -16,7 +16,7 @@ spec:
         name: cloudtech
 
     spec:
-      Service Account: cloudtech-sa
+      serviceAccountName: cloudtech-sa
       containers:
       - name: cloudtech-container
         image: 900840136675.dkr.ecr.ap-south-1.amazonaws.com/cloudtech:37
