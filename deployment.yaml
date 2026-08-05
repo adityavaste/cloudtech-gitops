@@ -19,7 +19,7 @@ spec:
       serviceAccountName: cloudtech-sa
       containers:
       - name: cloudtech-container
-        image: 900840136675.dkr.ecr.ap-south-1.amazonaws.com/cloudtech:37
+        image: 900840136675.dkr.ecr.ap-south-1.amazonaws.com/cloudtech:38
         imagePullPolicy: Always
 
         ports:
